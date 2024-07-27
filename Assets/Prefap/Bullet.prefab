@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1598290539837098524}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,3 +163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 6981719393041026615, guid: c3c9b5e1d9812924eb27ebf64033ccad, type: 3}
   isInHole: 0
+  isInGround: 0

@@ -11,9 +11,6 @@ public class BulletBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Debug.Log("Enters");
-        // Debug.Log(other.tag);
-
         if (other.tag == "Hole")
         {
             isInHole = true;
