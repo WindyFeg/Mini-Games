@@ -8,6 +8,7 @@ public class PlayerBehaviour : MonoBehaviour
     public bool isInGround = false;
     public bool isBullet = false;
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 

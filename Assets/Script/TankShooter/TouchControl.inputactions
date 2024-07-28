@@ -1,0 +1,45 @@
+{
+    "name": "TouchControl",
+    "maps": [
+        {
+            "name": "MiniGames",
+            "id": "2f8abe55-3b10-4ad5-84fb-b2f4250304bf",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "51c63faf-d0f2-4042-8b2e-2f9b07beed6f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f72c2bd9-5416-465d-b651-e4823d9946af",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90bacb4e-924f-47ce-a969-68526b26104c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
